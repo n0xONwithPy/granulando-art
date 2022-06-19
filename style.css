@@ -158,11 +158,12 @@
 /*history page*/
 #content {
   font-family: 'Raleway', sans-serif;
-  height: 100vh;
+  height: 800px;
   border: 1px solid black;
   background: var(--main_color);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   padding: 3rem;
@@ -174,10 +175,16 @@
   margin-top: 10%;
 }
 
+.p-align {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
 .assign {
   font-family: 'Raleway', sans-serif;
   display: flex;
-  margin-top: 3rem;
+  margin-top: 4rem;
   margin-left: 10rem;
   width: 200px;
 }
