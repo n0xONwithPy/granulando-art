@@ -82,7 +82,7 @@
 .news {
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     background: var(--banner_color);
     max-width: 1000px;
     height: 100px;
@@ -112,7 +112,6 @@
   position:absolute;
   width:100%;
   height:100%;
-
   -webkit-transition: margin-left 1300ms ease-in;
   -moz-transition: margin-left 1300ms ease-in;
   -o-transition: margin-left 1300ms ease-in;
@@ -130,6 +129,7 @@
 }
 .ativa {
   margin-left:0%;
+  box-shadow: 0 0 1em #000
 }
 
 .bg-img-content {
