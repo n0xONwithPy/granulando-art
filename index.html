@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Lading page</title>
 </head>
 <body>
@@ -12,12 +13,18 @@
         <figure>
             <img src="./assets/WhatsApp Image 2022-06-18 at 20.28.54.jpeg" width="130px" alt="logo-icon">
         </figure>
-        <ul class="nav-list">
-            <li><a href="#">Historia</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Orçamentos</a></li>
-        </ul>
+        <ul class="menu">
+            <li><a class="menuItem" href="#">Historia</a></li>
+            <li><a class="menuItem" href="#">Porfolio</a></li>
+            <li><a class="menuItem" href="#">Contato</a></li>
+            <li><a class="menuItem" href="#">Orçamentos</a></li>
+          </ul>
+          <button class="hamburger">
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+          </button>
+          
+        </section>
     </header>
     <main class="content">
         <article class="news">
@@ -50,7 +57,7 @@
         <h3>Todos os direitos reservados</h3>
         <section class="media">
             <figure class="social-media">
-                <a href="#" target="_blank"><img src="./assets/icon-instagram.svg" width="50px" alt="instagram-icon"></a>
+                <a href="https://www.instagram.com/granulandoart/" target="_blank"><img src="./assets/icon-instagram.svg" width="50px" alt="instagram-icon"></a>
             </figure>
             <figure>
                 <a href="#" target="_blank"><img src="./assets/PngItem_6811703.png" width="30px" alt="whatsapp-icon"></a>
@@ -61,3 +68,4 @@
 </html>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="./scripts/sr.js"></script>
+<script src="./scripts/menu.js"></script>
