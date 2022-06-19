@@ -96,6 +96,20 @@
     border-radius: 6px;
 }
 
+.news h2 {
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.news p {
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
 .final , h3 {
     background: var(--footer_color);
     height: 100px;
@@ -134,10 +148,36 @@
 }
 .ativa {
   margin-left:0%;
-  box-shadow: 0 0 .5em #000;
 }
 
 .bg-img-content {
   background: var(--banner_color);
   height: 230px;
+}
+
+/*history page*/
+#content {
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  border: 1px solid black;
+  background: var(--main_color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+#content p {
+  font-weight: 500;
+  display: flex;
+  margin-top: 10%;
+}
+
+.assign {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  width: 200px;
 }
