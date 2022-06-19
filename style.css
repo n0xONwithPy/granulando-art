@@ -51,6 +51,7 @@
     right: 0;
     bottom: 0;
     z-index: 99;
+    height: 300px;
     background: var(--banner_color);
     color: white;
     list-style: none;
@@ -68,6 +69,10 @@
     margin-top: 40px;
   }
 
+  .menuItem li,a:hover {
+    text-decoration: underline;
+  }
+
 .showMenu {
     transform: translateY(0);
   }
@@ -75,7 +80,7 @@
 .content {
     position: relative;
     background: var(--main_color);
-    height: 100vh;
+    height: 100%;
     padding: 30px;
 }
 
@@ -129,7 +134,7 @@
 }
 .ativa {
   margin-left:0%;
-  box-shadow: 0 0 1em #000
+  box-shadow: 0 0 .5em #000;
 }
 
 .bg-img-content {
