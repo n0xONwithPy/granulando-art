@@ -197,3 +197,36 @@
 .content-article  h4 {
   margin-bottom: 1rem;
 }
+
+/*contato*/
+#frm-box {
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 6px;
+  height: 500px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.frm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: flex;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  width: 80px;
+  height: 30px;
+}
+
+.frm input , textarea {
+  border-radius: 6px;
+  
+  background-color: var(--main_color);
+}
